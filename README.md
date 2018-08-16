@@ -1,8 +1,8 @@
 ### cb-cities fork
 
-This exexutes the Commute Stream rust CLI hourly and posts the data to an S3 bucket.
+This executes the Commute Stream rust CLI hourly and posts the outputted GTFS data to an S3 bucket.
 
-Create an IAM role and update the `credentials` file and the `Dockerfile` with AWS access details and a gmail account for notifications.
+Create an IAM role and update the `credentials`, `config` and `Dockerfile` files with AWS access details and a gmail account for notifications.
 
 A docker image is available for use. To build:
 
