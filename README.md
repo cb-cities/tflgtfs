@@ -1,3 +1,17 @@
+### cb-cities fork
+
+This exexutes the Commute Stream rust CLI hourly and posts the data to an S3 bucket.
+
+Create an IAM role and update the `credentials` file and the `Dockerfile` with AWS access details and a gmail account for notifications.
+
+A docker image is available for use. To build:
+
+`docker build -t "tfl_gtfs"`
+
+`docker run -ti "tfl_ftfs' /bin/bash`
+
+Gerry Casey
+
 # Transport For London GTFS Exporter
 
 This simple Rust CLI allows you to fetch data from the
